@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="java-members" deleted="false" description="tearDown method (JUnit 4)" enabled="true" name="After">@After
+public void ${tearDown}() throws Exception {
+    ${import:import('org.junit.After')}${cursor} 
+}</template><template autoinsert="false" context="java-members" deleted="false" description="tearDown method (JUnit 4)" enabled="true" name="After Class">@AfterClass
+public static void ${tearDownClass}() throws Exception {
+    ${import:import('org.junit.AfterClass')}${cursor} 
+}</template><template autoinsert="true" context="java-members" deleted="false" description="JUnit Before" enabled="true" name="Before">@Before
+public void ${setUp}() throws Exception {
+    ${import:import('org.junit.Before')}${cursor} 
+}</template><template autoinsert="true" context="java-members" deleted="false" description="setUp class method (JUnit 4)" enabled="true" name="Before Class">@BeforeClass
+public static void ${setUpClass}() throws Exception {
+    ${import:import('org.junit.BeforeClass')}${cursor} 
+}</template></templates>
